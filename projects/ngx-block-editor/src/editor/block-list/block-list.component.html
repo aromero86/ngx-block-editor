@@ -1,1 +1,7 @@
-BLOCK LIST
+<nbe-block-text *ngFor="let block of blocks; let i = index" 
+    [block]="block" 
+    (nextBlock)="nextBlock($event, i)">
+</nbe-block-text>
+
+
+<pre>{{ blocks | json }}</pre>

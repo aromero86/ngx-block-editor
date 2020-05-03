@@ -1,0 +1,25 @@
+:host {
+    display: block;
+    position: relative;
+    div.content {
+        background: transparent;
+        outline: none;
+      }
+   
+    div.placeholder {
+        position: absolute;
+        left: 0;
+        opacity: 0.5;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+      }
+  }
+:host:hover {
+    div.content.no-placeholder {
+        background: #fafafa !important;
+      }
+    div.placeholder {
+        background: #fafafa !important;
+      }
+  }

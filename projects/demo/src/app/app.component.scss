@@ -1,6 +1,9 @@
 :host {
     display: block;
     nbe-editor {
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 28px;
         margin: 0 auto;
         max-width: 800px;
         width: calc(100% - 40px);

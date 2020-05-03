@@ -1,0 +1,8 @@
+<div class="placeholder" *ngIf="!block.content">{{ configuration.placeholder }}</div>
+<div #erContent 
+    class="content" 
+    contenteditable="true" 
+    [class.no-placeholder]="block.content"
+    [innerHTML]="content"
+    (input)="setContentFromEditable()">
+</div>
