@@ -1,27 +1,22 @@
 # NgxBlockEditor
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+Proyecto para construir un editor de bloques para crear documentos
+y otro formato enriquecido. Se usará **Angular**. Para iniciar el
+proyecto...
 
-## Development server
+1. Instalar Angular CLI
+2. Instalar dependencias. En la raíz del proyecto, ejecutar `npm install`
+3. Iniciar el servidor. En la raíz del proyecto, ejecutar `ng serve`
+4. Abrir un navegador e ir a `localhost:4200`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Por hacer:
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [ ] Mejorar la gestion de los bloques
+- [ ] Enfocar siguiente bloque
+- [ ] Evitar pegado (o al menos, formatearlo)
+- [ ] Toolbar para texto seleccionado
+- [ ] Quick insert menú
+- [ ] H1
+- [ ] H2
+- [ ] Divider
+- [ ] Extraer / proyectar bloques (para convertir)
